@@ -5,13 +5,13 @@ CLI that prints a random "say hi" greeting. No config, no network — just run a
 ## Install
 
 ```bash
-npm install -g say-hi
+npm install -g @bharathbhsp/say-hi
 ```
 
 Or run without installing:
 
 ```bash
-npx say-hi
+npx @bharathbhsp/say-hi
 ```
 
 From this repo:

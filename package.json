@@ -1,5 +1,5 @@
 {
-  "name": "say-hi",
+  "name": "@bharathbhsp/say-hi",
   "version": "1.0.2",
   "description": "CLI that prints a random say-hi greeting",
   "type": "module",
