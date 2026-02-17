@@ -1,6 +1,6 @@
 {
   "name": "@bharathbhsp/say-hi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI that prints a random say-hi greeting",
   "type": "module",
   "main": "lib/random-pick.js",
