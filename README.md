@@ -51,6 +51,7 @@ Uses a fixed seed to assert deterministic behavior and valid picks.
 
 - **[Approach & design](docs/APPROACH.md)** — Goal, scope, and design (no code).
 - **[Usage](docs/USAGE.md)** — Install, options, and customization.
+- **[Publishing to npm](docs/PUBLISHING-NPM.md)** — How to publish this package to npm.
 
 ## License
 

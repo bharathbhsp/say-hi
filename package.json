@@ -12,5 +12,11 @@
     "test": "node test/random-pick.test.js"
   },
   "keywords": ["cli", "greeting", "say-hi"],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bharathbhsp/say-hi.git"
+  },
+  "homepage": "https://github.com/bharathbhsp/say-hi#readme",
+  "files": ["bin", "lib", "data"]
 }
