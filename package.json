@@ -1,6 +1,6 @@
 {
   "name": "say-hi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI that prints a random say-hi greeting",
   "type": "module",
   "main": "lib/random-pick.js",
@@ -11,12 +11,20 @@
     "start": "node bin/say-hi.js",
     "test": "node test/random-pick.test.js"
   },
-  "keywords": ["cli", "greeting", "say-hi"],
+  "keywords": [
+    "cli",
+    "greeting",
+    "say-hi"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/bharathbhsp/say-hi.git"
   },
   "homepage": "https://github.com/bharathbhsp/say-hi#readme",
-  "files": ["bin", "lib", "data"]
+  "files": [
+    "bin",
+    "lib",
+    "data"
+  ]
 }
