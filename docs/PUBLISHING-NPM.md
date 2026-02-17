@@ -53,3 +53,21 @@ npm publish
 ## Optional: 2FA
 
 For extra security, enable two-factor auth on npm (npm website → Account → “Enable 2FA”). You’ll use a one-time password or `npm login` with a token when publishing.
+
+---
+
+## Troubleshooting
+
+| Error | Cause | Fix |
+| ----- | ----- | --- |
+| **ENEEDAUTH** / **401** | Not logged in | Run `npm login` and enter your npm credentials. |
+| **E403** (Forbidden) | Package name `say-hi` is already taken, or you don't have permission to publish it | Use a **scoped** name: in `package.json` set `"name": "@YOUR_NPM_USERNAME/say-hi"`, then run `npm publish --access public`. |
+| **402 Payment Required** | npm may require a paid plan for some new unscoped names | Use a scoped package: `"name": "@YOUR_NPM_USERNAME/say-hi"` and `npm publish --access public`. |
+| **OTP required** / 2FA | Two-factor auth is enabled on your account | When `npm publish` prompts for a one-time password, enter the code from your authenticator app. |
+| **npm ERR!** about **bin** or **repository** | package.json format | Run `npm pkg fix` in the project root to apply npm's suggested fixes, then try again. |
+
+**Recommended if `say-hi` is taken or 402/403:** Use a scoped name so you always have publish rights:
+
+1. In `package.json`: `"name": "@bharathbhsp/say-hi"` (replace with your npm username).
+2. Run: `npm publish --access public`
+3. Users install with: `npm install -g @bharathbhsp/say-hi` or `npx @bharathbhsp/say-hi`

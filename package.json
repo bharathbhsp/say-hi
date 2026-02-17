@@ -5,7 +5,7 @@
   "type": "module",
   "main": "lib/random-pick.js",
   "bin": {
-    "say-hi": "./bin/say-hi.js"
+    "say-hi": "bin/say-hi.js"
   },
   "scripts": {
     "start": "node bin/say-hi.js",
@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bharathbhsp/say-hi.git"
+    "url": "git+https://github.com/bharathbhsp/say-hi.git"
   },
   "homepage": "https://github.com/bharathbhsp/say-hi#readme",
   "files": [
